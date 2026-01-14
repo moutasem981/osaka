@@ -1,0 +1,18 @@
+
+.nav-link ,.navbar-brand{
+    color: #fff;
+}
+.nav-link ,.navbar-brand:hover{
+    color: #fff;
+}
+
+ .navbar-nav .nav-item .nav-link:focus{
+    color: var(--primarycolor);
+}
+ .navbar-nav .nav-item .nav-link:hover{
+    color: #fff;
+}
+.hero{
+    background-image: url(./../img/bg.jpg);
+    background-size: cover;
+}
