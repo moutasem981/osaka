@@ -16,3 +16,13 @@
     background-image: url(./../img/bg.jpg);
     background-size: cover;
 }
+
+.about{
+    background-image: url(../img/public/light_dot.jpg);
+}
+@media screen and (max-width:992px) {
+    .about-img{
+        width: 100%;
+    }
+    
+}
