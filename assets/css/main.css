@@ -15,7 +15,14 @@
 .hero{
     background-image: url(./../img/bg.jpg);
     background-size: cover;
+    background-position-y: -20px;
 }
+@media screen and (max-width:600px) {
+    .hero{
+        background-position-x: 40%;
+    }
+    
+    }
 
 .about{
     background-image: url(../img/public/light_dot.jpg);
@@ -26,3 +33,21 @@
     }
     
 }
+.Portfolio{
+    background-image: url(../img/public/light_dot.jpg);
+}
+.Portfolio .nav-tabs {
+    border: none;
+}
+.Portfolio .nav-tabs button{
+    border: none;
+    color: #000;
+}
+.Portfolio .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color: var(--primarycolor);
+}
+.Portfolio .nav-tabs :focus ,
+.Portfolio .nav-tabs :hover{
+    border: none;
+    color: var(--primarycolor);
+} 
