@@ -17,9 +17,9 @@
     background-size: cover;
     background-position-y: -20px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:865px) {
     .hero{
-        background-position-x: 40%;
+        background-position-x: 45%;
     }
     
     }
@@ -29,7 +29,8 @@
 }
 @media screen and (max-width:992px) {
     .about-img{
-        width: 100%;
+        margin: auto;
+        width: 70%;
     }
     
 }
@@ -69,3 +70,17 @@
     opacity: 1;
     transform: scaleY(1);
  }
+.testimonial-img img{
+    width: 100px;
+    border: 2px #fff;
+    box-shadow:rgba(0, 0, 0, 0.15) 0px 8px 20px;
+    top: -50px;
+    right: 46.5%;
+}
+.testimonials-title{
+    margin-bottom: 90px;
+}
+.testimonial h4{
+    text-decoration: underline red 1px;
+    text-underline-offset: 15px;
+}
